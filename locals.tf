@@ -14,6 +14,7 @@ locals {
 	PublicSecurityGroupName = "${local.Preamble}-public-security-group-${local.Region}"
 	PublicSubnetAvailabilityZone = var.PublicSubnetAvailabilityZone
 	PublicSubnetCidrBlock = var.PublicSubnetCidrBlock
+	PublicSubnetMapPublicIpOnLaunch = var.PublicSubnetMapPublicIpOnLaunch
 	PublicSubnetName = "${local.Preamble}-public-subnet-${local.Region}"
 	Region = var.Region
 	Tag = var.Tag

@@ -28,6 +28,11 @@ variable "PublicSubnetCidrBlock" {
 	type = string
 }
 
+variable "PublicSubnetMapPublicIpOnLaunch" {
+	default = false
+	type = bool
+}
+
 variable "Region" {
 	default = "us-east-1"
 	description = "Geographical location where resources can be hosted" 

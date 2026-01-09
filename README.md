@@ -9,7 +9,7 @@ This module creates a topology with a single virtual private cloud having a sing
 ## Usage
 ```tf
 module "Vpc" {
-	source = "git::https://github.com/armdupre/terraform-aws-module-1-vpc-1-public-subnet-1-private-subnet.git"
+	source = "git::https://github.com/Keysight/terraform-aws-module-1-vpc-1-public-subnet-1-private-subnet.git"
 	InboundIPv4CidrBlocks = [ "1.1.1.1/32" ]
 }
 ```
